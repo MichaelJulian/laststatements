@@ -23,12 +23,12 @@ plt.show()
 
 plt.hist(list(map(int, inmates['Month'])))
 plt.title("Deaths by Month")
-plt.title("Deaths by Month")
+plt.savefig("Deaths by Month")
 plt.show()
 
 plt.hist(list(map(int, inmates['Day'])))
 plt.title("Deaths by Month Date")
-plt.title("Deaths by Month Date")
+plt.savefig("Deaths by Month Date")
 plt.show()
 
 labels, values = zip(*Counter(inmates['Race']).items())
