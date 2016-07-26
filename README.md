@@ -6,12 +6,16 @@ We scraped last statements from death row inmates, provided by the State of Texa
 
 http://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html
 
+## Most Common Trigrams
+
+![Last Words](plots/ngram_7.png)
+
 
 ## Deaths Across Time
 
 ![Deaths by Year](plots/Deaths%20Per%20Year.png)
 
-![By Month Date](plots/Deaths%20by%20Month%20Date.png)
+![By Month](plots/Deaths%20by%20Month.png)
 
 
 ## Deaths by Background
@@ -19,7 +23,3 @@ http://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html
 ![By Ethnicity](plots/Deaths%20by%20Race.png)
 
 ![Deaths by County](plots/Deaths%20by%20County.png)
-
-## Most Common Trigrams
-
-![Last Words](plots/ngram_7.png)
