@@ -5,7 +5,7 @@ from datetime import datetime
 import numpy as np
 import seaborn as sb
 
-inmates = pd.read_csv("Inmate_info.csv")
+inmates = pd.read_csv("data/Inmate_info.csv")
 plt.hist(inmates['Age'])
 plt.title("Inmate Age")
 plt.show()
